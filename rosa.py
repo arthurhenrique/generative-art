@@ -6,7 +6,7 @@ j = turtle.Screen()
 def espiral(t, lineLen):
     if lineLen < 10000:      
         if(lineLen % 2 == 0):
-            t.pencolor("#FFA500")
+            t.pencolor("pink")
         else:
             t.pencolor("#00BFFF")          
         t.forward(lineLen)      
