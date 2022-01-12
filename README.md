@@ -47,3 +47,9 @@ make hexagon
 ```
 
 ![hexagon](arts/assets/hexagon.png "hexagon")
+
+## Magic
+
+```bash
+make magic
+```
