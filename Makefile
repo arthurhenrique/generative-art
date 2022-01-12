@@ -15,3 +15,6 @@ pentagon:
 
 hexagon:
 	python arts/shape.py 6
+
+magic:
+	python arts/shape.py $(shell bash -c 'echo $$((RANDOM % 7))')
