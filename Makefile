@@ -18,3 +18,6 @@ hexagon:
 
 magic:
 	python arts/shape.py $(shell bash -c 'echo $$((RANDOM % 7))')
+
+chaos:
+	python arts/chaos.py

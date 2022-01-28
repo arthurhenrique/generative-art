@@ -53,3 +53,11 @@ make hexagon
 ```bash
 make magic
 ```
+
+## Chaos
+
+```bash
+make chaos
+```
+
+![chaos](arts/assets/chaos.png "chaos")
