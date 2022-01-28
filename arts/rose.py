@@ -21,7 +21,7 @@ def rose(pen: Turtle, length_line=0) -> None:
 
     if length_line < TIMES:
 
-        if(length_line % 2 == 0):
+        if length_line % 2 == 0:
             pen.pencolor(BLUE)
         else:
             pen.pencolor(YELLOW)

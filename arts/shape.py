@@ -19,15 +19,15 @@ shape = int(sys.argv[1]) or 1
 
 # random color
 colors = []
-for i in range(0, shape):
-    color = str('#{0:06x}'.format(r.randrange(0x1, 0xffffff)))
+for i in range(shape):
+    color = str("#{0:06x}".format(r.randrange(0x1, 0xFFFFFF)))
     colors.append(color)
     time.sleep(1)
 
 # drawwning
-for i in range(0, 1000):
-    for j in range(0, shape):
+for _ in range(1000):
+    for j in range(shape):
         t.pencolor(colors[j])
         t.forward(frw_acc)
-        t.left((360/shape) + LEFT)
+        t.left((360 / shape) + LEFT)
     frw_acc += FORWARD
