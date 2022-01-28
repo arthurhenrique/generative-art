@@ -17,7 +17,8 @@ if __name__ == "__main__":
             a = r * random.choices(range(10 * magic, 100))[0]
             b = a - random.choices(range(10 * magic, 100))[0]
             bb = a / random.choices(range(10 * magic, 100))[0]
-            y = [a, random.choices([b, bb])[0]]
+            bbb = a ** random.choices(range(10 * magic, 100))[0]
+            y = [a, random.choices([b, bb, bbb])[0]]
             x = random.choices(y)
             y.remove(x[0])
             t.pencolor(str("#{0:06x}".format(random.randrange(0x1, 0xFFFFFF))))
